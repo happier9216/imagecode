@@ -11,6 +11,8 @@ overLapped = 1;
 %%
 % Idx = csvread('output_1.csv');
 % mu = csvread('mu.csv');
+
+% kmean result
 tic;
 [Idx,mu] = ACKmeans(BigACMat);
 toc;
